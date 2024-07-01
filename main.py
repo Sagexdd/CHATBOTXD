@@ -11,16 +11,16 @@ import asyncio
 import time
 from datetime import datetime
 from pyrogram import enums
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
-BOT_USERNAME = os.environ.get("BOT_USERNAME","Chatbot_op_bot") 
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL","team_sage_xd")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","sage_xd")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP","sage_bot_support")
-BOT_NAME = os.environ.get("BOT_NAME","CHATBOT")
-START_IMG = os.environ.get("START_IMG","")
+API_ID = "API_ID"
+API_HASH = "API_HASH" 
+BOT_TOKEN = "BOT_TOKEN"
+MONGO_URL = "MONGO_URL"
+BOT_USERNAME = "BOT_USERNAME" 
+UPDATE_CHNL = "team_sage_xd"
+OWNER_USERNAME = "OWNER_USERNAME"
+SUPPORT_GRP = "SUPPORT_GRP"
+BOT_NAME = "BOT_NAME"
+START_IMG = "START_IMG"
 
 STKR = os.environ.get("STKR")
 
